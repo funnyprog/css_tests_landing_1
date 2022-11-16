@@ -1,0 +1,33 @@
+.about {
+    margin-top: 110px;
+    background: #F6F6F6;
+    padding: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-title {
+    align-self: center;
+    font-size: 34px;
+    line-height: 42px;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-text_item {
+    font-family: Gilroy-Medium, sans-serif;
+    text-align: center;
+    line-height: 22px;
+}
+
+.about-text > p {
+    margin-bottom: 20px;
+}
+
+.about-text > p:last-child {
+    margin-bottom: 0;
+}

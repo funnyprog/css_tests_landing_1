@@ -1,0 +1,17 @@
+.header {
+    height: 90px;
+    display: flex;
+    border-bottom: #828282 1px solid;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-item {
+    color: #828282;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.header-item_active {
+    color: black
+}

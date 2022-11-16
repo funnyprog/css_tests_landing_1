@@ -1,0 +1,29 @@
+@import "header.css";
+@import "home.css";
+@import "about.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy-Bold, sans-serif;
+    font-size: 18px;
+}
+
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url("/fonts/FontsFree-Net-Gilroy-Bold.ttf")
+}
+
+@font-face {
+    font-family: Gilroy-Medium;
+    src: url("/fonts/FontsFree-Net-Gilroy2.ttf")
+}
+
+.main {
+    margin: 0 250px;
+}
+
+img {
+    width: 100%;
+}

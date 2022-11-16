@@ -1,0 +1,26 @@
+.home {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-main {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-main_name {
+    font-size: 48px;
+}
+
+.home-main_profession {
+    font-family: Gilroy-Medium, sans-serif;
+}
+
+.home-main_lang {
+    transform: rotate(-90deg);
+}
+
+.home-photo {
+    width: 100%;
+}
